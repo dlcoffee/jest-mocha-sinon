@@ -7,7 +7,7 @@ const complexCalculator = proxyquire('./complex-calculator', (
   { './sum': sumStub }
 ))
 
-describe('complexCalculator', () => {
+describe('complexCalculator (proxyquire)', () => {
   it('calculates something complex', () => {
     sumStub.returns(42)
 
