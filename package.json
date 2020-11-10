@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "jest": "jest"
+    "jest": "jest",
+    "mocha": "mocha \"./src/**/*.mocha.js\""
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,9 @@
   },
   "homepage": "https://github.com/dlcoffee/jest-mocha-sinon#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "mocha": "^8.2.1",
+    "proxyquire": "^2.1.3",
+    "sinon": "^9.2.1"
   }
 }
