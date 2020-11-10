@@ -1,0 +1,21 @@
+{
+  "name": "jest-mocha-sinon",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlcoffee/jest-mocha-sinon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlcoffee/jest-mocha-sinon/issues"
+  },
+  "homepage": "https://github.com/dlcoffee/jest-mocha-sinon#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
